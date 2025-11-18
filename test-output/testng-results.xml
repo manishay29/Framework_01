@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[enteredAdmin in username]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin123 in password]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Admin]]>
+    </line>
+    <line>
+      <![CDATA[clicked on add user]]>
+    </line>
+    <line>
+      <![CDATA[clicked on user role ]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Admin]]>
+    </line>
+    <line>
+      <![CDATA[enteredPeter in EmployeeName]]>
+    </line>
+    <line>
+      <![CDATA[clicked on chooseEmployeeName]]>
+    </line>
+    <line>
+      <![CDATA[clicked on status]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Enabled]]>
+    </line>
+    <line>
+      <![CDATA[enteredPeter Anderson in user name ]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin1233A in password]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin1233A in ConfirmPassword]]>
+    </line>
+    <line>
+      <![CDATA[clicked on save]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[clicked on profile]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Logout]]>
+    </line>
+    <line>
+      <![CDATA[enteredAdmin in username]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin123 in password]]>
+    </line>
+    <line>
+      <![CDATA[clicked on login]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Admin]]>
+    </line>
+    <line>
+      <![CDATA[clicked on add user]]>
+    </line>
+    <line>
+      <![CDATA[clicked on user role ]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Admin]]>
+    </line>
+    <line>
+      <![CDATA[enteredPeter in EmployeeName]]>
+    </line>
+    <line>
+      <![CDATA[clicked on chooseEmployeeName]]>
+    </line>
+    <line>
+      <![CDATA[clicked on status]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Enabled]]>
+    </line>
+    <line>
+      <![CDATA[enteredPeter Anderson in user name ]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin1233A in password]]>
+    </line>
+    <line>
+      <![CDATA[enteredadmin1233A in ConfirmPassword]]>
+    </line>
+    <line>
+      <![CDATA[clicked on save]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[clicked on profile]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Logout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-11-11T21:46:04 IST" name="Suite" finished-at="2025-11-11T21:46:18 IST" duration-ms="13545">
+    <groups>
+    </groups>
+    <test started-at="2025-11-11T21:46:04 IST" name="Test" finished-at="2025-11-11T21:46:18 IST" duration-ms="13545">
+      <class name="Runner.KeywordRunner">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Runner.KeywordRunner@5740ff5e]" started-at="2025-11-11T21:46:04 IST" name="launchBrowser" finished-at="2025-11-11T21:46:08 IST" duration-ms="3429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="getKeyword()[pri:0, instance:Runner.KeywordRunner@5740ff5e]" started-at="2025-11-11T21:46:08 IST" name="getKeyword" finished-at="2025-11-11T21:46:18 IST" duration-ms="10017" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[enteredAdmin in username]]>
+            </line>
+            <line>
+              <![CDATA[enteredadmin123 in password]]>
+            </line>
+            <line>
+              <![CDATA[clicked on login]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Admin]]>
+            </line>
+            <line>
+              <![CDATA[clicked on add user]]>
+            </line>
+            <line>
+              <![CDATA[clicked on user role ]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Admin]]>
+            </line>
+            <line>
+              <![CDATA[enteredPeter in EmployeeName]]>
+            </line>
+            <line>
+              <![CDATA[clicked on chooseEmployeeName]]>
+            </line>
+            <line>
+              <![CDATA[clicked on status]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Enabled]]>
+            </line>
+            <line>
+              <![CDATA[enteredPeter Anderson in user name ]]>
+            </line>
+            <line>
+              <![CDATA[enteredadmin1233A in password]]>
+            </line>
+            <line>
+              <![CDATA[enteredadmin1233A in ConfirmPassword]]>
+            </line>
+            <line>
+              <![CDATA[clicked on save]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Dashboard]]>
+            </line>
+            <line>
+              <![CDATA[clicked on profile]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getKeyword -->
+        <test-method is-config="true" signature="quitSession()[pri:0, instance:Runner.KeywordRunner@5740ff5e]" started-at="2025-11-11T21:46:18 IST" name="quitSession" finished-at="2025-11-11T21:46:18 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitSession -->
+      </class> <!-- Runner.KeywordRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
