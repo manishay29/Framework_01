@@ -42,24 +42,24 @@ public class LoginPage extends Commonmethods  {
 	//method creation for login details
 	public void fillLoginDetails() throws Exception {
 	Properties readprop=
-		//readConfig("C:\\Users\\manis\\automation-New\\Framework_01\\src\\test\\java\\DataFiles\\config.properties");
+		readConfig("C:\\Users\\manis\\automation-New\\Framework_01\\src\\test\\java\\DataFiles\\config.properties");
 	
-	Map<String, String> prop = runner.newdatamap;
+
 
 			
 			
 	//wait_obj.until(ExpectedConditions.visibilityOf(username));
 //	waitForElementtobeVisible(username, 10);    
 //	username.sendKeys(readprop.getProperty("UserName"));
-	//clearAndSendKeys(username, readprop.getProperty("UserName"), "username");
-	clearAndSendKeys(username,prop.get("UserName") , "username");
+	clearAndSendKeys(username, readprop.getProperty("UserName"), "username");
+	//clearAndSendKeys(username,prop.get("UserName") , "username");
 		
 //		wait_obj.until(ExpectedConditions.visibilityOf(password));	
 //		password.sendKeys(readprop.getProperty("Password"));
 		
-	//clearAndSendKeys(password, readprop.getProperty("Password"), "password");
+	clearAndSendKeys(password, readprop.getProperty("Password"), "password");
 	
-	clearAndSendKeys(password, prop.get("Password"), "password");
+	//clearAndSendKeys(password, prop.get("Password"), "password");
 	
 		//wait_obj.until(ExpectedConditions.visibilityOf(login));
 		
@@ -67,7 +67,7 @@ public class LoginPage extends Commonmethods  {
 //		login.click();
 	
 	click(login, "login");
-	waitForElementtobeVisible(ProfileButton, 10);
+	waitForElementtobeVisible(ProfileButton, 11);
 	Assert.assertTrue(ProfileButton.isDisplayed());
 	
 	}
